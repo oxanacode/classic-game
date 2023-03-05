@@ -15,7 +15,6 @@ export const Game = () => {
   const [board, setBoard] = useState(createBoard());
   const [controlClass, setControlClass] = useState<CONTROL_STATUS>(CONTROL_STATUS.SMILE);
   
-  console.log('render')
 
   return (
     <main>
