@@ -1,4 +1,6 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## ![](https://minesweeper-classic.netlify.app/favicon.ico) Minesweeper App
+
+https://minesweeper-classic.netlify.app/
 
 ## Available Scripts
 
@@ -11,4 +13,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ### `npm run build`
 
-Builds the app for production to the `build` folder.\
+Builds the app for production to the `build` folder.
+
+### This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
