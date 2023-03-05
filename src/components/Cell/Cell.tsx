@@ -27,7 +27,6 @@ export const Cell = ({ position, board, setBoard, gameStatus, setGameStatus, set
 
   useEffect(() => {
     setCellClass(cell.numberOfMines || cell.status);
-    console.log()
   },[cell.numberOfMines, cell.status])
 
   const handleClick = () => {
@@ -60,8 +59,6 @@ export const Cell = ({ position, board, setBoard, gameStatus, setGameStatus, set
 
   const handleRightClick = (e: React.MouseEvent<HTMLDivElement>) => {
     e.preventDefault();
-
-    console.log(gameStatus)
 
     if (gameStatus === GAME_STATUS.STOP) {
       flagCell(board, position);
