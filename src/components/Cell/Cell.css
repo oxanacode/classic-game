@@ -1,0 +1,61 @@
+.hidden,
+.empty,
+.flagged,
+.question,
+.mine,
+.mine-fail,
+.flag-mistake {
+  background-image: var(--sprite-url);
+  background-position-y: -51px;
+}
+
+.one,
+.two,
+.three,
+.four,
+.five,
+.six,
+.seven
+.eight {
+  background-image: var(--sprite-url);
+  background-position-y: -68px;
+}
+
+.hidden,
+.one {
+  background-position-x: 0;
+}
+
+.empty,
+.two {
+  background-position-x: -17px;
+}
+
+.flagged,
+.three {
+  background-position-x: calc(-17px * 2);
+}
+
+.question,
+.four {
+  background-position-x: calc(-17px * 3);
+}
+
+.five {
+  background-position-x: calc(-17px * 4);
+}
+
+.mine,
+.six {
+  background-position-x: calc(-17px * 5);
+}
+
+.mine-fail,
+.seven {
+  background-position-x: calc(-17px * 6);
+}
+
+.flag-mistake,
+.eight {
+  background-position-x: calc(-17px * 7);
+}

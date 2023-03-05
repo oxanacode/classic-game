@@ -1,0 +1,62 @@
+.timer {
+  display: flex;
+}
+
+.timer > * {
+  width: 13px;
+  height: 23px;
+}
+
+.number-0,
+.number-1,
+.number-2,
+.number-3,
+.number-4,
+.number-5,
+.number-6,
+.number-7,
+.number-8,
+.number-9 {
+  background-image: var(--sprite-url);
+  background-position-y: 0;
+}
+
+.number-1 {
+  background-position-x: 0;
+}
+
+.number-2 {
+  background-position-x: -14px;
+}
+
+.number-3 {
+  background-position-x: calc(-14px * 2);
+}
+
+.number-4 {
+  background-position-x: calc(-14px * 3);
+}
+
+.number-5 {
+  background-position-x: calc(-14px * 4);
+}
+
+.number-6 {
+  background-position-x: calc(-14px * 5);
+}
+
+.number-7 {
+  background-position-x: calc(-14px * 6);
+}
+
+.number-8 {
+  background-position-x: calc(-14px * 7);
+}
+
+.number-9 {
+  background-position-x: calc(-14px * 8);
+}
+
+.number-0 {
+  background-position-x: calc(-14px * 9);
+}

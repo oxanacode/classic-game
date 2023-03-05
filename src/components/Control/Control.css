@@ -1,0 +1,40 @@
+.control {
+  font-size: 0;
+  
+  width: 26px;
+  height: 26px;
+  padding: 0;
+
+  cursor: pointer;
+
+  border: none;
+}
+
+.smile,
+.control:active,
+.scared,
+.win,
+.lose {
+  background-image: var(--sprite-url);
+  background-position-y: -24px;
+}
+
+.smile {
+  background-position-x: 0;
+}
+
+.control:active {
+  background-position-x: -27px;
+}
+
+.scared {
+  background-position-x: calc(-27px * 2);
+}
+
+.win {
+  background-position-x: calc(-27px * 3);
+}
+
+.lose {
+  background-position-x: calc(-27px * 4);
+}

@@ -1,12 +1,16 @@
 import style from './App.module.css';
 
+import { Game } from './components/Game';
+import { Header } from './components/Header';
+
 function App() {
   return (
-    <main className={style.app}>
-      <section className={style.container}>
-
-      </section>
-    </main>
+    <div className={style.app}>
+      <div className={style.container}>
+        <Header />
+        <Game />
+      </div>
+    </div>
   );
 }
 

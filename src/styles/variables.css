@@ -1,0 +1,8 @@
+:root {
+  --c-border-light: white;
+  --c-border-dark: #7B7B7B;
+  --c-bg-field: #BDBDBD;
+  --c-bg-top: #C0C0C0;
+
+  --sprite-url: url(../assets/sprites/minesweeper-sprite.png);
+}

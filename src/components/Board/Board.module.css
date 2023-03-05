@@ -1,0 +1,17 @@
+.board {
+  border-style: solid;
+  border-width: 2px;
+  border-top-color: var(--c-border-dark);
+  border-left-color: var(--c-border-dark);
+  border-right-color: var(--c-border-light);
+  border-bottom-color: var(--c-border-light);
+}
+
+.row {
+  display: flex;
+}
+
+.row > * {
+  width: 16px;
+  height: 16px;
+}
